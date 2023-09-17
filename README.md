@@ -1,5 +1,5 @@
 # client
-simple client identification spring boot app
+A very simple client identification spring boot app
 
 There is no database use, but the comented code left to connect to H2 DB later.
 The app is pure backend.
@@ -11,7 +11,8 @@ Each client can have each product only once.
 The api's and their signatures weren't noted.
 
 I supposed that when a client tries to sight up to his account the api will identificate the customer, if yes - will authorize him and return the list of his products, if the customer doesn't exists - will create a new one.
-
+The Purchase api would be called after customer authorizathion or creation.
+The SaveProduct api created in order to update the products for this project. Could be used by staff as additional alternative to batch process.
 
 
 
