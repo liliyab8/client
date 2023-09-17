@@ -1,7 +1,7 @@
 # client
 simple client identification spring boot app
 
-There is no database use, but the comented code left to connect after to H2 DB.
+There is no database use, but the comented code left to connect to H2 DB later.
 The app is pure backend.
 Objects id's are saved manually because of DB absent.
 Each product can be assosiated to many clients.
